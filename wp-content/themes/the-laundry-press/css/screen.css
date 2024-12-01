@@ -1,0 +1,542 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+@media screen and (max-width: 1200px) {
+.nav.mobile ul li a {
+
+	border-bottom: 1px dashed #fff;
+}
+.social_media_top {
+	right: 12%;
+	position: absolute;
+	z-index: 9999;
+}
+.nav.mobile ul li span.arrow {
+	right: 18px !important;
+	width: 40px !important;
+
+font-size: 14px !important;
+
+margin: 5px !important;
+
+    margin-right: 5px;
+
+background: #fff !important;
+
+margin-right: 0 !important;
+	
+}
+
+.nav ul li span.arrow {
+	color: #333 !important;
+	
+}
+.main_menu {
+	position: absolute;
+	right: 5%;
+	width: 50%;
+}
+
+.our_gallery .slick-prev {
+	bottom: -91px;
+	left: 32.5%;
+}
+.our_gallery .slick-next {
+	bottom: -91px;
+	right: 32.5%;
+}
+.points_listing img {
+	width: 199px;
+}
+.points_section {
+	margin-bottom: 100px;
+}
+.banner_text h1 {
+	font-size: 45px;
+	line-height: 39px;
+	
+}
+.nav-bars {
+	top: 0px !important;
+	
+}
+.nav ul li a {
+	color: #fff !important;
+
+}
+.nav ul li a:hover
+{
+	color: #fff !important;
+}
+.nav ul
+{
+	background:#6b6137;
+}
+}
+@media screen and (max-width: 1130px) {
+
+.pickp_delivery_head h1 {
+	font-size: 21px;
+	line-height: 36px;
+}
+
+
+.pickp_delivery_head {
+	width: 100%;
+	margin-top: 38px;
+	margin-bottom: 18px;
+}
+.pickp_delivery_head h1 span {
+
+	font-size: 27px;
+}
+.pickp_delivery_phone {
+	width: 50%;
+	
+}
+.pickp_delivery_van {
+	width: 50%;
+	float: right;
+}
+}
+
+
+@media screen and (max-width: 1100px) {
+.pickp_delivery_phone h1 {
+	font-size: 21px;
+	line-height: 30px;
+	
+}
+.banner_text h1, .banner_text .banner_textTitle {font-size:40px; line-height:1.2;}
+.home-banner .banner_text{    padding-top: 40px;}
+}
+@media screen and (max-width: 1000px) {
+.reasonable_pricing {
+	width: 42%;
+	margin: 13px 4%;
+	margin-bottom: 42px;
+}
+.why_choose_section_inside {
+	
+	padding: 7% 0% 4% 0%;
+}
+.why_choose_points ul li {
+	font-size: 15px;
+	
+}
+.why_choose_section_inside h1 {
+	font-size: 24px;
+	padding-bottom: 54px;
+	padding-top: 18px;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+.our_gallery_head h1 {
+	font-size: 40px;
+	line-height: 41px;
+}
+.service_list_item h2 {
+	font-size: 14px;
+	line-height: 18px;
+	
+}
+.banner_cover {
+	
+	padding: 0 15px;
+
+}
+.gallery_page_pics {
+	width: 30%;
+	
+}
+}
+@media screen and (max-width: 900px) {
+	.footer_address {
+	width: 62%;
+	min-height: 331px;
+}
+.pickp_delivery_phone p {
+
+	min-height: 114px;
+
+}
+.pickp_delivery_van {
+
+	margin-top: 6%;
+}
+.quick_links {
+	width: 31%;
+}
+.footer_map {
+	width: 65%;
+	
+}
+.about_section_pic {
+	width: 100%;
+	margin: 0;
+}
+.about_section_pic img {
+	width: auto;
+	margin: 0 auto;
+	display: block;
+	width: 250px;
+	margin-top: 25px;
+}
+.about_section_text h1, .about_section_text p {
+	
+	text-align: center;
+}
+.about_section_text .service_more {
+	display: block;
+	float: none !important;
+}
+.about_section_text {
+	width: 95%;
+	float: left;
+	margin: 5% 2%;
+}
+.dubai_inside h1, .dubai_inside_part h1 {
+	font-size: 27px;
+}
+.pick_up_form_part {
+	width: 100%;
+	
+}
+.dubai_inside_part {
+	width: 40%;
+	
+}
+.dubai_inside {
+	width: 60%;
+	
+}
+.free_delivery_cta h1 {
+	font-size: 30px;
+	
+}
+
+.points_listing_text h1 {
+	font-size: 15px;
+	
+}
+.points_section {
+	padding: 18px;
+	margin-bottom: 153px;
+}
+.banner_text h1, .banner_text .banner_textTitle {font-size:30px; line-height:1.2;}
+.footer-address{ width:100%;}
+}
+@media screen and (max-width: 767px) {
+    
+    .copy_right_text {
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+	.white_strip
+	{
+		display:none;
+	}
+.testimonial_head {
+	width: 100%;
+	float: left;
+}
+.page .main_logo {
+	float: left;
+	width: 134px;
+}
+.testimonial_head h1 br, .client_section h1 br, .our_gallery_head h1 br{
+	display: none;
+}
+.testimonial_head h1, .client_section h1, .our_gallery_head h1{
+	font-size: 29px;
+	
+}
+
+.form_date_cls {
+	background: url(../images/date.png) no-repeat right center !important;
+
+}
+.mfp-content .form_date_cls
+{
+	background: url(../images/date.png) no-repeat right center #fff !important;
+	
+	
+}
+.our_gallery_head {
+	width: 100%;
+	float: left;
+	padding: 2% 0% 2% 3%;
+}
+.testimonial_head img {
+	
+	width: 80px;
+}
+.testimonial_list {
+	width: 100%;
+
+}
+.client_head {
+	width: 100%;
+	margin-bottom: 24px;
+}
+.client_listing {
+	width: 106%;
+	float: left;
+}
+.our_gallery_scroll {
+	width: 100%;
+	float: left;
+	
+}
+.our_gallery_out {
+	background-image:none;
+	padding-bottom: 120px;
+}
+.dubai_inside {
+	width: 100%;
+}
+.dubai_inside_part {
+	width: 100%;
+	padding: 23px;
+}
+.dubai_inside ul {
+	width: 100%;
+	margin-top: 20px;
+
+}
+.our_service_list_section {
+	width: 60%;
+	margin: 0px 20%;
+	margin-bottom: 33px;
+}
+
+.points_listing {
+	width: 100%;
+	min-height: 325px;
+}
+.points_section {
+
+	margin-bottom: 0;
+}
+.banner_text h1 {
+	font-size: 30px;
+	line-height: 39px;
+}
+.banner_text {
+
+	padding-top: 0px;
+}
+.banner_text p {
+	padding-right: 10%;
+	padding-top: 16px;
+}
+.about_text_more {
+	padding: 13px 9px;	
+	margin-top: 27px;
+	font-size: 14px;
+	height: 41px;
+	padding-top: 8px;
+}
+.banner_cover {
+	min-height: 505px;
+}
+.pickp_delivery_phone {
+	width: 100%;
+	margin-bottom: 24px;
+	margin-top: 17px;
+}
+.pickp_delivery_van {
+	width: 85%;
+	float: left;
+	margin: 0 auto;
+	display: block;
+	float: none;
+	
+}
+.banner_text big {
+    font-size: 14px;
+}
+.free_delivery_cta p{ font-size:26px;}
+}
+@media screen and (max-width: 636px) {
+	
+	.footer_address {
+	width: 100%;
+	min-height: 100px;
+	margin-bottom:25px;
+
+}
+.quick_links {
+	width: 46%;
+}
+.footer_map {
+	width: 100%;
+}
+.reasonable_pricing {
+	width: 92%;
+	margin: 13px 4%;
+	margin-bottom: 42px;
+	padding-top: 25px;
+	min-height: 167px;
+}
+.why_choose_points {
+	width: 100%;
+	margin: 0 !important;
+}
+.why_choose_points ul li {
+	
+	margin: 0 15px;
+}
+
+
+.banner_text h1, .banner_text .banner_textTitle {
+	font-size: 21px;
+	line-height: 27px;
+}
+.banner_cover .slick-prev {
+	bottom: 0;
+	
+}
+.banner_cover .slick-next {
+	bottom: 0;
+	
+}
+.gallery_page_pics {
+	width: 47%;
+	
+}
+}
+@media screen and (max-width: 486px) {
+.page .main_menu {
+	margin-top: 13px;
+}
+.page .main_logo {
+	float: left;
+	width: 116px;
+}
+}
+@media screen and (max-width: 446px) {
+	.quick_links {
+	width: 100%;
+}
+	.social_footer {
+	width: 100%;
+
+}
+.nav.mobile ul li span.arrow 
+{
+	padding: 5px !important;
+}
+
+.client_listing img {
+	
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 18px;
+}
+
+.our_gallery .slick-prev {
+	bottom: -91px;
+	left: 25.5%;
+}
+.our_gallery .slick-next {
+	bottom: -91px;
+	right: 25.5%;
+}
+.our_service_list_section {
+	width: 90%;
+	margin: 0px 5%;
+	margin-bottom: 24px;
+}
+.main_banner_pic_cover {
+	width: 70%;
+	float: left;
+	border: none;
+	padding: 12px;
+	border-radius: 277px;
+	margin: 0 auto;
+	display: block;
+	float: none;
+}
+.banner_text {
+	width: 100%;
+	float: right;
+	padding-top: 0px;
+	margin-top:15px;
+}
+.social_media_top {
+	
+	display: none;
+}
+.main_menu {
+	
+	width: 91%;
+}
+.header-main {
+	width: 100%;
+	float: left;
+	padding: 7px 4%;
+}
+.main_logo {
+	float: left;
+	position: absolute;
+	z-index: 999;
+}
+.header-main {
+	margin-bottom: 68px;
+}
+.nav.mobile {
+	
+	padding-top: 75px;
+}
+.nav.mobile ul li a {
+	padding: 9px !important;
+	font-size: 13px;
+}
+
+.nav ul {
+	margin-top: 21px !important;
+	
+}
+.acx_fixed {
+	height: 93px;
+}
+.acx_fixed .nav ul {
+	margin-top: 0px !important;
+	
+}
+.footer-address{ flex-wrap:wrap;}
+}
+
+@media screen and (max-width: 400px) {
+.gallery_page_pics {
+	width: 100%;
+	
+}
+#acx-popup h2 {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.banner_cover .slick-prev, .banner_cover .slick-next{  -webkit-transform:translate(0, 0); -ms-transform:translate(0, 0); transform:translate(0, 0);}
+}
+@media screen and (min-width: 901px) {
+.pick_up_form_part_right {
+    margin-left: 0px;
+    width: 100%;
+}	
+
+}
+@media screen and (max-width: 555px) {
+.nav-bars {
+	top: 10px !important;
+}
+.acx_fixed .nav-bars {
+	top: 5px !important;
+}
+}

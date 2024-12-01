@@ -1,0 +1,161 @@
+.nav {
+  position: relative;
+  display: block;
+
+  font-size: 14px;
+  font-weight: 100;
+  float:left;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  position: relative;
+  margin-top: 0;
+  z-index: 9999;
+ font-family: 'Poppins Regular';
+  text-transform:uppercase;
+}
+.nav ul li {
+  float: left;
+  *display: inline;
+  zoom: 1;
+  position: relative;
+}
+.nav ul li span.arrow {
+	display: block;
+	position: absolute;
+	top: 29px;
+	color: #333;
+	width: 20px;
+	left: 50%;
+	margin-left: -10px;
+	text-align: center;
+	font-size: 8px;
+	z-index: 5;
+	cursor: pointer;
+}
+.nav ul li a {
+	display: block;
+	color: #333;
+	padding: 11px 15px;
+	text-decoration: none;
+	font-size: 14px;
+	/* letter-spacing: .5px; */
+	text-transform: uppercase;
+	/* margin-left: 20px; */
+	/* margin-right: 20px; */
+	transition:.7s;
+}
+.nav ul li ul {
+	list-style: none;
+	padding: 0;
+	display: none;
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+	margin-top: 0 !important;
+
+	/* background: #313b3c; */
+}
+.nav ul li ul li {
+	width: 205px;
+}
+.nav ul li ul li a {
+	color: #333;
+	border-bottom: 1px dashed #ffe37d;
+	display: block;
+	margin: 0;
+	padding: 7px;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	font-size:13px;
+}
+.nav ul li ul li a:hover {
+  background: #c6ae23;
+}
+.nav ul li:hover a {
+
+}
+.nav ul li:hover a:hover {
+ 
+  color: #b59c3b;
+  
+}
+.nav ul li:hover ul {
+  display: block;
+}
+.nav ul li:hover ul a {
+  background: #fbf2d1;
+}
+.nav ul li:hover ul a:hover {
+  background: #fce79a;
+  color:#333;
+}
+.nav .nav-bars {
+  display: none;
+  position: absolute;
+  top: 11px;
+  right: 0;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+
+}
+.nav .nav-bars i {
+  font-weight: bold;
+}
+.nav.mobile {
+  width: 100%;
+  padding-top: 50px;
+}
+.nav.mobile ul {
+  display: none;
+}
+.nav.mobile ul li {
+  width: 100%;
+  float: none;
+}
+.nav.mobile ul li span.arrow {
+	display: block;
+	top: 0;
+	font-size: 24px;
+	margin: 0;
+	right: 2px;
+	left: auto;
+	padding: 10px;
+}
+.nav.mobile ul li span.arrow:hover {
+  color: #aaa;
+}
+
+.nav.mobile ul li a {
+  padding: 15px;
+  transition:.7s;
+}
+.nav.mobile ul li ul {
+  position: static;
+  width: 100%;
+}
+.nav.mobile ul li ul li {
+  width: 100%;
+}
+.nav.mobile ul li:hover a {
+  background: #a59654;
+
+}
+.nav.mobile ul li:hover a:hover {
+  background: #8e814a;
+}
+.nav.mobile ul li:hover ul {
+  display: none;
+}
+.nav.mobile ul li:hover ul a {
+  background: #9f8516;
+}
+.nav.mobile ul li:hover ul a:hover {
+
+}
+.nav.mobile .nav-bars {
+  display: block;
+}
